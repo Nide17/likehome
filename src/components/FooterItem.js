@@ -2,7 +2,7 @@ import React from 'react'
 
 function FooterItem(props) {
     const linksArray = props.contents.map(link => 
-        <li><a href="#">{link}</a></li>
+        <li><a href="./{link}">{link}</a></li>
         )
     
     return (

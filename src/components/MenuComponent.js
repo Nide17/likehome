@@ -27,10 +27,10 @@ class MenuComponent extends Component {
             <small>Price: {dish.price}</small>
             {dish.description.length >= 65 ?
               <p>
-                {dish.description.slice(0, 60)} <a href="#" target="_blank">...more</a>
+                {dish.description.slice(0, 60)} <a href="./details/{dish.name}" target="_blank">...more</a>
               </p> :
               <p>
-                {dish.description} <a href="#" target="_blank">...more</a>
+                {dish.description} <a href="./details/{dish.name}" target="_blank">...more</a>
               </p>}
           </div>
 
