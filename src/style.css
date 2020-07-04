@@ -1,0 +1,142 @@
+.App {
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+/* Responsiveness - Small Screens*/
+@media(max-width: 649px) {
+    .dishContainer {
+        display: inline;
+        text-align: center;
+        font-size: 15px;
+        line-height: 1.2em;
+        margin: auto;
+    }
+    .dishContainer .dish {
+        display: block;
+        box-sizing: border-box;
+        border: 1px #CCC solid;
+        margin: 0;
+    }
+    .dishContainer .dish #img {
+        display: inline-block;
+        width: 40%;
+        border: 0;
+        margin: 0;
+        padding: 0
+    }
+    .dishContainer .dish .desc {
+        display: inline-block;
+        width: 60%;
+        border: 0;
+        margin: 0;
+        padding: 0
+    }
+    .dishContainer .dish .desc p {
+        padding: 10px
+    }
+    
+    .threeblocks .block {
+        border: .2px rgb(181, 194, 194) solid;
+        border-radius: 4px;
+    }
+    .block li {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+/* Responsiveness - Large Screens*/
+@media(min-width: 650px) {
+    .dishContainer {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .threeblocks .block {
+        float: left;
+        width: 33.3333%;
+        border: .2px rgb(181, 194, 194) solid;
+        border-radius: 4px;
+    }
+}
+
+/* ####################################### */
+.dishContainer .dish {
+    padding: 5px;
+    flex: 4;
+    flex-basis: 15%;
+    justify-content: center;
+}
+
+.dishContainer .dish img {
+    border: 2px solid teal;
+    border-radius: 5px;
+}
+
+.dishContainer .dish h6, a {
+    color: #f36818;
+}
+
+.dishContainer .dish p {
+    border: 0.3px solid #CCC;
+    border-radius: 5px;
+}
+
+.dishContainer .dish small {
+    color: #0fb1fc;
+    font-weight: 700;
+}
+
+
+/* #########FOOTER############ */
+.footerContainer{
+    width: 99.5%;
+    margin: auto;
+    padding-top: 5px;
+}
+
+.threeblocks .block{
+    background: #0e99c4;
+}
+
+.threeblocks .block h5 {
+    text-align: center;
+}
+
+.threeblocks .block ul > li{
+    list-style: none;
+    color: floralwhite;
+}
+
+.threeblocks .block ul > li a{
+    list-style: none;
+    color: floralwhite;
+}
+
+.footerContainer #copyright {
+    text-align: center;
+    color: rgb(228, 228, 228);
+    background-color: rgb(54, 51, 51);
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
